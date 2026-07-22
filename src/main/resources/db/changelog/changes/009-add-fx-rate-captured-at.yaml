@@ -1,0 +1,31 @@
+databaseChangeLog:
+  - changeSet:
+      id: 009-add-fx-rate-captured-at
+      author: fx
+      changes:
+        - addColumn:
+            tableName: fx_rate
+            columns:
+              - column: { name: captured_at, type: DATETIME(3) }
+      rollback:
+        - dropColumn: { tableName: fx_rate, columnName: captured_at }
+
+  - changeSet:
+      id: 009b-backfill-captured-at
+      author: fx
+      changes:
+        - sql:
+            sql: UPDATE fx_rate SET captured_at = TIMESTAMP(rate_date) WHERE captured_at IS NULL
+
+  - changeSet:
+      id: 009c-index-fx-rate-lookup
+      author: fx
+      changes:
+        - createIndex:
+            tableName: fx_rate
+            indexName: idx_fx_rate_pair_captured
+            columns:
+              - column: { name: base_code }
+              - column: { name: quote_code }
+              - column: { name: captured_at }
+
