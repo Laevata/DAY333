@@ -1,2 +1,3 @@
-INSERT INTO currency VALUES ('USD','US Dollar','$'),('EUR','Euro','€'),('GBP','Pound Sterling','£'),('JPY','Japanese Yen','¥'),('CHF','Swiss Franc','Fr'),('AUD','Australian Dollar','A$'),('CAD','Canadian Dollar','C$'),('SGD','Singapore Dollar','S$'),('SGD','Singapore Dollar','S$'),('NZD','NZ Dollar','NZ$');
+INSERT INTO currency VALUES ('USD','US Dollar','$'),('EUR','Euro','€'),('GBP','Pound Sterling','£'),('JPY','Japanese Yen','¥'),('CHF','Swiss Franc','Fr'),('AUD','Australian Dollar','A$'),('CAD','Canadian Dollar','C$'),('SGD','Singapore Dollar','S$');
+
 
