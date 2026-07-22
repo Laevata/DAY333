@@ -1,0 +1,26 @@
+[33mcommit d68673f8b529858666be50dead460e3fc4c2e941[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 97ddd6e 88b229a
+Author: Laevata <102739815+Laevata@users.noreply.github.com>
+Date:   Wed Jul 22 06:40:04 2026 +0000
+
+    Merge pull request #1 from Laevata/exercise-01
+    
+    "feat: containerise fx-app-spring"
+
+[33mcommit 88b229a72615b7d0b32346e4036b4811e82b3216[m[33m ([m[1;31morigin/exercise-01[m[33m, [m[1;32mexercise-01[m[33m)[m
+Author: laevatin <xiaoweide189@qq.com>
+Date:   Wed Jul 22 14:35:40 2026 +0800
+
+    "feat: containerise fx-app-spring"
+
+[33mcommit 97ddd6e48c3e4060cc20bedb489658e02b661d8c[m
+Author: laevatin <xiaoweide189@qq.com>
+Date:   Wed Jul 22 14:02:29 2026 +0800
+
+    add
+
+[33mcommit 70f3264e2afd4b5434eb4551acc071c12ff36fba[m
+Author: laevatin <xiaoweide189@qq.com>
+Date:   Wed Jul 22 13:56:13 2026 +0800
+
+    start
